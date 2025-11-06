@@ -28,7 +28,7 @@ def get_status():
 @app.get("/api/info")
 def get_info():
     return {
-        "name": "Resume Backend check  API",
+        "name": "dsdsd Resume Backend check  API",
         "version": "1.0.0",
         "description": "Backend API for Resume IQ application"
     }
@@ -37,7 +37,7 @@ def get_info():
 @app.get("/api/stats")
 def get_stats():
     return {
-        "total_requests check": 42,
+        "jghh total_requests check": 42,
         "active_connections": 5,
         "response_time_ms": 12
     }
