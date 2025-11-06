@@ -28,7 +28,7 @@ def get_status():
 @app.get("/api/info")
 def get_info():
     return {
-        "name": "Resume Backend API",
+        "name": "Resume Backend check  API",
         "version": "1.0.0",
         "description": "Backend API for Resume IQ application"
     }
@@ -37,7 +37,7 @@ def get_info():
 @app.get("/api/stats")
 def get_stats():
     return {
-        "total_requests": 42,
+        "total_requests check": 42,
         "active_connections": 5,
         "response_time_ms": 12
     }
@@ -46,7 +46,7 @@ def get_stats():
 @app.get("/api/version")
 def get_version():
     return {
-        "api_version": "1.0.0",
+        "api_version check": "1.0.0",
         "python_version": "3.11",
         "framework": "FastAPI"
     }
